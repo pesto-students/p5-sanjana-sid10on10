@@ -23,10 +23,10 @@ Browser High level Structure -
 
 Structure of Browser -
 	
-	![Alt text](diagrams/structure.jpg "Structure of browser")
-          
+	![Alt text](./diagrams/structure.jpg "Structure of browser")
+    
 
-Rendering Engine and it's uses - 
+Rendering Engine and it's uses -
 
 1. Common Rendering Engine - IE - Trident
 	Firefox - Gecko
@@ -35,25 +35,24 @@ Rendering Engine and it's uses -
 
 2. Rendering Engine is used to parse HTML to construct
 
-      1. a. Content tree  b. Style data c. Render Tree (DOM and CSSOM trees)
+	1. a. Content tree  b. Style data c. Render Tree (DOM and CSSOM trees)
 
-      2. DOM tree -> Render Tree Construction -> Layout of render tree -> painting the render tree
+	2. DOM tree -> Render Tree Construction -> Layout of render tree -> painting the render tree
 
 
 Parsers HTML and CSS etc.
 
-	![Alt text](diagrams/parsers.jpg "Parsers")
+	![Alt text](./diagrams/parsers.jpg "Parsers")
 
 
 Script processors ->
 
-	![Alt text](diagrams/rendertree.jpg "Render Tree")
-
+	![Alt text](./diagrams/rendertree.jpg "Render Tree")
 
 
 Tree construction -> 
 
-	![Alt text](diagrams/rendertree.jpg "Render Tree")
+	![Alt text](./diagrams/rendertree.jpg "Render Tree")
 
 
 Order of script processing - 
