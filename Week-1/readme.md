@@ -1,3 +1,5 @@
+## How Browser works 
+
 Whenever we enter a URI or URL in the browser it fetches the DNS record first from cache (which includes of Browser Cache - OS - Router - ISP ).If the record is not available it will look for that in the Root domain name server - Top level domain name server - 2nd level - 3rd level domain name server - IP.
 
 Once it gets the IP it will initiate the TCP connection via 3 way handshake and creates an HTTP request. Once it gets a Server response it will start constructing the Render Tree and prepare a layout and Does the painting in browser that's how we see a webpage in the browser.
@@ -21,7 +23,7 @@ Browser High level Structure -
 
 Structure of Browser -
 	
-	Diagram
+	![Alt text](/diagrams/structure.jpg "Structure of browser")
           
 
 Rendering Engine and it's uses - 
@@ -40,17 +42,18 @@ Rendering Engine and it's uses -
 
 Parsers HTML and CSS etc.
 
-	Diagram
+	![Alt text](/diagrams/parsers.jpg "Parsers")
 
 
 Script processors ->
 
-	Diagram
+	![Alt text](/diagrams/rendertree.jpg "Render Tree")
+
 
 
 Tree construction -> 
 
-	Diagram
+	![Alt text](/diagrams/rendertree.jpg "Render Tree")
 
 
 Order of script processing - 
