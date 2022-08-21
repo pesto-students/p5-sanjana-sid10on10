@@ -23,7 +23,7 @@ Browser High level Structure -
 
 Structure of Browser -
 	
-	![Alt text](/diagrams/structure.jpg "Structure of browser")
+	![Alt text](diagrams/structure.jpg "Structure of browser")
           
 
 Rendering Engine and it's uses - 
@@ -42,18 +42,18 @@ Rendering Engine and it's uses -
 
 Parsers HTML and CSS etc.
 
-	![Alt text](/diagrams/parsers.jpg "Parsers")
+	![Alt text](diagrams/parsers.jpg "Parsers")
 
 
 Script processors ->
 
-	![Alt text](/diagrams/rendertree.jpg "Render Tree")
+	![Alt text](diagrams/rendertree.jpg "Render Tree")
 
 
 
 Tree construction -> 
 
-	![Alt text](/diagrams/rendertree.jpg "Render Tree")
+	![Alt text](diagrams/rendertree.jpg "Render Tree")
 
 
 Order of script processing - 
