@@ -1,0 +1,62 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.firstp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: rgb(52, 55, 55);
+    margin-top: 100px;
+    height: 100px;
+    color: white;
+}
+
+.form {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.form-input {
+    margin-top: 50px;
+}
+
+.header {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.p1 {
+    margin-left: 20px;
+    width: 40%;
+}
+
+.secondp {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 400px) {
+    .p1 {
+        width: 100%
+    }
+}
+    
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+    .p1 {
+        width: 100%
+    }
+}
