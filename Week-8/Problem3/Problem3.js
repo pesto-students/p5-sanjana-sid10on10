@@ -9,7 +9,6 @@ class Node {
 class Tree {
     constructor(root){
         this.root = root
-        this.nodes = []
     }
 
     printPreOrder(root){
