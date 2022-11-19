@@ -1,0 +1,41 @@
+@mixin rotate($function) {
+    animation: $function 2s;
+}
+
+.maindiv:hover {
+    .firstdiv {
+        animation: rotate 2s;
+    }
+    
+    .seconddiv {
+        animation: rotate 2s;
+    }
+    
+    .thirddiv {
+        animation: rotate2 2s;
+    }
+    
+    .fourthdiv {
+        animation: rotate2 2s;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: -100px -100px;
+    }
+    100% {
+        translate: -0px -200px;
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: -100px -100px;
+    }
+    100% {
+        translate: -0px 200px;
+    }
+}
