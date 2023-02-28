@@ -1,0 +1,110 @@
+.carddiv {
+    background-color: rgb(48, 47, 47);
+    height: 500px;
+    display: flex;
+}
+
+.cardftdiv {
+    display:flex;
+    margin-top: 150px;
+
+}
+
+.cardbtn {
+    margin-left: 10px;
+}
+
+.catbtn {
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.footer {
+    background-color: rgb(66, 118, 171);
+    height: 150px;
+    width: 100%;
+}
+
+.footercard {
+    display: flex;
+}
+
+.footermusic {
+    padding-top: 40px;
+    color: white;
+    padding-left: 10px;
+}
+
+.footerimage {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.leftbar {
+    height: inherit;
+    width: 4%;
+    background-color: rgb(172, 178, 172);
+}
+
+.leftcard {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv {
+    background-color: rgb(255, 251, 251);
+    height:1200px;
+    width:100%;
+    display: flex;
+}
+
+.musicicon {
+    padding-top: 60px;
+    color: white;
+}
+
+.playicon {
+    margin-left: 50px;
+}
+
+.rightbar {
+    background-color: white;
+    height: inherit;
+    width: 96%;
+}
+
+.rightcard {
+    width: 75%;
+    padding-top: 110px;
+    color: white;
+}
+
+.sectiondiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-top: 70px;
+}
+
+.songcontainer {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.songdiv {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.songrow {
+    padding-top: 5px;
+}
+
+.songrow2 {
+    background-color: rgb(184, 184, 184);
+    padding-top: 5px;
+}
